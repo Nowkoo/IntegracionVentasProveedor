@@ -25,12 +25,11 @@ page 60301 "Sent Headers API"
                 {
                     ApplicationArea = All;
                 }
-                field(customerName; Rec."Customer Name")
+                field(documentStatus; Rec."Document Status")
                 {
                     ApplicationArea = All;
                 }
-
-                field(documentStatus; Rec."Document Status")
+                field(customerNo; Rec."Customer No.")
                 {
                     ApplicationArea = All;
                 }
@@ -46,7 +45,6 @@ page 60301 "Sent Headers API"
         }
     }
 }
-
 
 /* page 60301 "Sent Lines API"
 {

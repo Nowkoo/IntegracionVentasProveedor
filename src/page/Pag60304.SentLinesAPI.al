@@ -70,6 +70,11 @@ page 60304 "Sent Lines API"
                     Caption = 'New';
                     ApplicationArea = All;
                 }
+                field(customerNo; Rec."Customer No.")
+                {
+                    Caption = 'Customer No.';
+                    ApplicationArea = All;
+                }
             }
         }
     }

@@ -50,11 +50,15 @@ table 60301 "Sent Lines"
         {
             DataClassification = CustomerContent;
         }
+        field(10; "Customer No."; Code[20])
+        {
+            DataClassification = CustomerContent;
+        }
     }
 
     keys
     {
-        key(Pk; "Document No.", "Vendor Line No.")
+        key(Pk; "Document No.", "Vendor Line No.", "Customer No.")
         {
             Clustered = true;
         }
@@ -63,6 +67,7 @@ table 60301 "Sent Lines"
     trigger OnInsert()
     var
         SentLine: Record "Sent Lines";
+        SentHeader: Record "Sent Headers";
     begin
         if SentLine.FindLast() then
             Rec."Vendor Line No." := SentLine."Vendor Line No." + 10000
@@ -78,11 +83,16 @@ table 60301 "Sent Lines"
 
     end;
 
-    trigger OnDelete()
+    /* trigger OnDelete()
+    var
+        SentHeader: Record "Sent Headers";
+        SentLine: Record "Sent Lines";
     begin
-
+        if SentHeader.Get(Rec."Document No.") then begin
+            SentLine.
+        end;
     end;
-
+ */
     trigger OnRename()
     begin
 

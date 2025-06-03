@@ -5,7 +5,7 @@ page 60302 "Sent Order"
     UsageCategory = None;
     SourceTable = "Sent Headers";
     InsertAllowed = false;
-    ModifyAllowed = false;
+    //ModifyAllowed = false;
 
     layout
     {
@@ -28,7 +28,7 @@ page 60302 "Sent Order"
             part(sentOrderLines; "Sent Order Subform")
             {
                 ApplicationArea = All;
-                SubPageLink = "Document No." = field("No.");
+                SubPageLink = "Document No." = field("No."), "Customer No." = field("Customer No.");
                 Editable = true;
                 Enabled = true;
                 UpdatePropagation = Both;
@@ -40,11 +40,23 @@ page 60302 "Sent Order"
     {
         area(Processing)
         {
-            action(ActionName)
+            action(Finish)
             {
+                Caption = 'Confirm order';
+                ToolTip = 'Marks all the lines in this order as ready.';
                 trigger OnAction()
+                var
+                    SentLine: Record "Sent Lines";
                 begin
-
+                    Rec.Ready := true;
+                    Rec.Modify();
+                    //CurrPage.Update();
+                    /* SentLine.SetRange("Document No.", Rec."No.");
+                    if SentLine.FindSet() then
+                        repeat
+                            SentLine.Ready := true;
+                            SentLine.Modify();
+                        until SentLine.Next() = 0; */
                 end;
             }
         }
