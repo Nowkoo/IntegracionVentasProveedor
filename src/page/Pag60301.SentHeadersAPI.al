@@ -10,6 +10,9 @@ page 60301 "Sent Headers API"
     SourceTable = "Sent Headers";
     ODataKeyFields = SystemId;
 
+    //https://<base URL>:<port>/<serverinstance>/api/<API publisher>/<API group>/<API version>
+    //Para consultar company id: http://version24:7048/BC/api/mycompany/sentorders/v1.0/companies
+    //Para consultar los headers: http://version24:7048/BC/api/mycompany/sentorders/v1.0/companies(fe88f800-f5f9-ef11-9346-7c1e52404148)/sentheaders
 
     layout
     {
@@ -45,60 +48,3 @@ page 60301 "Sent Headers API"
         }
     }
 }
-
-/* page 60301 "Sent Lines API"
-{
-    PageType = API;
-    APIVersion = 'v1.0';
-    APIPublisher = 'mycompany';
-    APIGroup = 'sentlines';
-    EntityName = 'sentline';
-    EntitySetName = 'sentlines';
-    DelayedInsert = true;
-    SourceTable = "Sent Lines";
-    ODataKeyFields = SystemId;
-
-
-    layout
-    {
-        area(Content)
-        {
-            repeater(GroupName)
-            {
-                field(id; Rec.SystemId)
-                {
-                    ApplicationArea = All;
-                }
-                field(documentNo; Rec."Document No.")
-                {
-                    ApplicationArea = All;
-                }
-                field(lineNo; Rec."Line No.")
-                {
-                    ApplicationArea = All;
-                }
-                field(no; Rec."No.")
-                {
-                    ApplicationArea = All;
-                }
-                field(description; Rec.Description)
-                {
-                    ApplicationArea = All;
-                }
-                field(quantity; Rec.Quantity)
-                {
-                    ApplicationArea = All;
-                }
-                field(vendorItemNo; Rec."Vendor Item No.")
-                {
-                    ApplicationArea = All;
-                }
-                field(ready; Rec.Ready)
-                {
-                    ApplicationArea = All;
-                }
-            }
-        }
-    }
-}
- */

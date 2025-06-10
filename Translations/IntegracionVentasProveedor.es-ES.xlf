@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="IntegracionVentasProveedor.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2127424292 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target>Nombre cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Headers - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2127424292 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Nº cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Headers - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2127424292 - Field 4190130733 - Method 2126772001 - NamedType 782207285" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Misconfigured</source>
+          <target>Desconocido</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Headers - Field Customer No. - Method OnValidate - NamedType UnknownCustLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 2127424292 - Field 3536168541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Status</source>
+          <target>Estado documento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Headers - Field Document Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2127424292 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nº</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Headers - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2127424292 - Field 4145127342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Status</source>
+          <target>Estado pedido</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Headers - Field Order Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Nº cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nº documento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Nº línea</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 4137051400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New</source>
+          <target>Nuevo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field New - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nº</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Cantidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 2521603205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ready</source>
+          <target>Preparado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field Ready - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 2903269170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Item No.</source>
+          <target>Nº producto proveedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field Vendor Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2547132083 - Field 1469263199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Line No.</source>
+          <target>Nº línea proveedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sent Lines - Field Vendor Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1022553884 - Control 3014365425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sent Lines</source>
+          <target>Líneas enviadas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Headers API - Control sentOrderLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 1108861191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Nº cliente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control customerNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 4232699882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 73228906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nº documento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control documentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nº documento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 1294919425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Nº línea</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control lineNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 4142152232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New</source>
+          <target>Nuevo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control new - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 3179096107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nº</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control no - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 3355113493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Cantidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 295678629 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ready</source>
+          <target>Preparado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control ready - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 1354571308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nº</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control vendorItemNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2112808091 - Control 3839910493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Line No.</source>
+          <target>Nº línea proveedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control vendorLineNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2173344934 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>General</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Order - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2173344934 - Control 3014365425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sent Order Subform</source>
+          <target>Líneas enviadas</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Order - Control sentOrderLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2173344934 - Action 1405459978 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Marks the current order as ready until the customer updates the order</source>
+          <target>Marca el pedido actual como preparado hasta que el cliente haga algún cambio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Order - Action MarkReady - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2173344934 - Action 1405459978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mark as Ready</source>
+          <target>Marcar preparado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Order - Action MarkReady - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1251305025 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target>Abierto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Sent Document Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1251305025 - EnumValue 4020758431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted</source>
+          <target>Registrado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Sent Document Status - EnumValue Released - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4172918866 - EnumValue 541974475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modified</source>
+          <target>Modificado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Sent Order Status - EnumValue Modified - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4172918866 - EnumValue 4137051400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New</source>
+          <target>Nuevo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Sent Order Status - EnumValue New - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4172918866 - EnumValue 2521603205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ready</source>
+          <target>Preparado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Sent Order Status - EnumValue Ready - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2173344934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sent Order</source>
+          <target>Pedido enviado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3795802867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Ready</source>
+          <target>Ver preparados</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3795802867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays the orders marked as ready.</source>
+          <target>Muestra los pedidos marcados como preparados.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Orders - Property ToolTip</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

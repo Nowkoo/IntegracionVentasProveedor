@@ -6,12 +6,13 @@ table 60302 "Sent Headers"
     {
         field(1; "No."; Code[20])
         {
+            Caption = 'No.';
             DataClassification = CustomerContent;
-
         }
 
         field(2; "Customer Name"; Text[100])
         {
+            Caption = 'Customer Name';
             DataClassification = CustomerContent;
             TableRelation = Customer.Name;
         }
@@ -19,10 +20,10 @@ table 60302 "Sent Headers"
         {
             DataClassification = CustomerContent;
         }
-        field(4; "Ready"; Boolean)
+        /* field(4; "Ready"; Boolean)
         {
             DataClassification = CustomerContent;
-        }
+        } */
         field(5; "Customer No."; Code[20])
         {
             DataClassification = CustomerContent;
@@ -38,6 +39,10 @@ table 60302 "Sent Headers"
                     "Customer Name" := UnknownCustLbl;
             end;
         }
+        field(6; "Order Status"; Enum "Sent Order Status")
+        {
+            DataClassification = CustomerContent;
+        }
     }
 
     keys
@@ -48,19 +53,9 @@ table 60302 "Sent Headers"
         }
     }
 
-    fieldgroups
-    {
-        // Add changes to field groups here
-    }
-
     trigger OnInsert()
     begin
         //Rec."Document Status" := Rec."Document Status"::Open;
-    end;
-
-    trigger OnModify()
-    begin
-
     end;
 
     trigger OnDelete()
@@ -71,10 +66,4 @@ table 60302 "Sent Headers"
         if SentLine.FindSet() then
             SentLine.DeleteAll();
     end;
-
-    trigger OnRename()
-    begin
-
-    end;
-
 }

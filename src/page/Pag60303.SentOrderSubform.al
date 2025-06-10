@@ -13,30 +13,26 @@ page 60303 "Sent Order Subform"
             {
                 /* field("Document No."; Rec."Document No.")
                 {
-                    Caption = 'Document No.';
                     ApplicationArea = All;
                     Editable = false;
                 } */
                 field("No."; Rec."Vendor Item No.")
                 {
-                    Caption = 'No.';
                     ApplicationArea = All;
-                    TableRelation = Item;
+                    Editable = Rec.Ready = false;
                 }
                 field(Description; Rec.Description)
                 {
-                    Caption = 'Description';
                     ApplicationArea = All;
                     Editable = false;
                 }
                 field(Quantity; Rec.Quantity)
                 {
-                    Caption = 'Quantity';
                     ApplicationArea = All;
+                    Editable = Rec.Ready = false;
                 }
                 field(Ready; Rec.Ready)
                 {
-                    Caption = 'Ready';
                     ApplicationArea = All;
                 }
             }
