@@ -4,8 +4,8 @@ page 60301 "Sent Headers API"
     APIVersion = 'v1.0';
     APIPublisher = 'mycompany';
     APIGroup = 'sentorders';
-    EntityName = 'sentheader';
-    EntitySetName = 'sentheaders';
+    EntityName = 'sentOrderHeader';
+    EntitySetName = 'sentOrderHeaders';
     DelayedInsert = true;
     SourceTable = "Sent Headers";
     ODataKeyFields = SystemId;
