@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="es-ES" original="IntegracionVentasProveedor.g.xlf">
     <body>
@@ -171,6 +171,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sent Lines API - Control vendorLineNo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2173344934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sent Order</source>
+          <target>Pedido enviado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Order - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2173344934 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
           <target>General</target>
@@ -194,6 +200,13 @@
           <target>Marcar preparado</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sent Order - Action MarkReady - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3795802867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sent Orders</source>
+          <target>Pedidos enviados</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Orders - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1251305025 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>
@@ -224,24 +237,6 @@
           <target>Preparado</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Sent Order Status - EnumValue Ready - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2173344934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sent Order</source>
-          <target>Pedido enviado</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Order - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3795802867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>View Ready</source>
-          <target>Ver preparados</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Orders - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3795802867 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Displays the orders marked as ready.</source>
-          <target>Muestra los pedidos marcados como preparados.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sent Orders - Property ToolTip</note>
         </trans-unit>
       </group>
     </body>
